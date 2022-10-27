@@ -1,0 +1,103 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.whole {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    /* width: 80vw; */
+    height: 100vh;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* padding: 5% 10% 5% 5%; */
+    margin: 10% 20% 10% 4%;
+    /* align-items: center; */
+}
+
+.texts {
+    font-size: 1.2rem;
+    margin-bottom: 5%;
+}
+
+/* p>label {
+    display: block;
+    font-size: 0.8rem;
+} */
+div>label {
+    font-size: 0.7rem;
+}
+
+form>div {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    width: 200px;
+    border-color: #E5E7EB;
+}
+input:focus {
+    border-color: rgb(0, 119, 255);
+    box-shadow: 2px;
+}
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 5%;
+    margin-right: 25%;
+}
+.forms {
+    /* display: flex; */
+    /* flex-direction: row; */
+    /* flex-wrap: nowrap; */
+}
+
+.sent>button {
+    padding: 10px 40px;
+    border-radius: 8px;
+    background-color: #596D48;
+    color: white;
+    font-weight: bold;
+    border-style: none;
+    margin-bottom: 20px;
+}
+
+
+
+.left {
+    background-image: url('unsplash.jpg');
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    width: 70vw;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0, 0.4);
+    margin-top: 30%;
+    /* opacity: 0.5; */
+}
+
+.odin img {
+    /* width: 10%; */
+    /* height: 10%; */
+    width: 5rem;
+    height: 5rem;
+}
+
+.od {
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+}
